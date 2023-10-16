@@ -8,7 +8,7 @@ const Header = () => {
   const pathname=usePathname()
   const navigation=[
     {
-      title:'Home',
+      title:'Phone',
       href:'/'
     },
     {
@@ -31,7 +31,7 @@ const Header = () => {
       items-center justify-between h-20'>
     {/*logo*/}
     <div >
-      <Link href='' className='uppercase font-semibold underline decoration-[1px]
+      <Link href={'/'} className='uppercase font-semibold underline decoration-[1px]
        hover:text-blue-600 underline-offset-2 hover:leading-8'>Phonix</Link>
 
     </div>
